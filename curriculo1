@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de [Seu Nome]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        #main-content {
+            background: #fff;
+            color: #333;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        #main-content h2 {
+            margin-top: 0;
+        }
+        #contact-info {
+            margin-top: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Currículo de [Seu Nome]</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#contact-info">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container" id="main-content">
+        <section id="bio">
+            <h2>Sobre Mim</h2>
+            <p>[Insira aqui uma breve biografia]</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experiência Profissional</h2>
+            <p>[Insira aqui a sua experiência profissional]</p>
+        </section>
+
+        <section id="education">
+            <h2>Formação Acadêmica</h2>
+            <p>[Insira aqui a sua formação acadêmica]</p>
+        </section>
+
+        <section id="skills">
+            <h2>Competências</h2>
+            <p>[Insira aqui as suas competências]</p>
+        </section>
+
+        <section id="contact-info">
+            <h2>Informações de Contato</h2>
+            <p>Email: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></p>
+            <p>Telefone: <a href="tel:+351XXXXXXXXX">+351 XXXXXXXX</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/seuperfil" target="_blank">linkedin.com/in/seuperfil</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Currículo de [Seu Nome] &copy; 2024</p>
+    </footer>
+</body>
+</html>
